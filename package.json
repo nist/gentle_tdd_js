@@ -4,7 +4,7 @@
   "description": "Gentle introduction to TDD with JavaScript",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter=nyan flickr-fetcher-spec.js"
+    "test": "mocha test/*-spec.js"
   },
   "repository": {
     "type": "git",
