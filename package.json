@@ -1,0 +1,23 @@
+{
+  "name": "gentle_tdd_js",
+  "version": "1.0.0",
+  "description": "Gentle introduction to TDD with JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter=nyan flickr-fetcher-spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nist/gentle_tdd_js.git"
+  },
+  "keywords": [
+    "TDD",
+    "JavaScript"
+  ],
+  "author": "Nicolas St-Laurent",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nist/gentle_tdd_js/issues"
+  },
+  "homepage": "https://github.com/nist/gentle_tdd_js#readme"
+}
