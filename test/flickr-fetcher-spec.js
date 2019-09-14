@@ -40,4 +40,26 @@ describe('#photoObjToURL() second', function () {
     var actual = FlickrFetcher.photoObjToURL(input)
     expect(actual).to.eql(expected)
   })
+
+  describe('#transformPhotoObj()', function () {
+    it('should take a photo object and return an object with just title and URL', function () {
+      var input = {
+        id: '25373736106',
+        owner: '99117316@N03',
+        secret: '146731fcb7',
+        server: '1669',
+        farm: 2,
+        title: 'Dog goes to desperate measure to avoid walking on a leash',
+        ispublic: 1,
+        isfriend: 0,
+        isfamily: 0
+      }
+      var expected = {
+        title: 'Dog goes to desperate measure to avoid walking on a leash',
+        url: 'https://farm2.staticflickr.com/1669/25373736106_146731fcb7_b.jpg'
+      }
+      var actual = FlickrFetcher.transformPhotoObj(input)
+      expect(actual).to.eql(expected)
+    })
+  })
 })
