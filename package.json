@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/nist/gentle_tdd_js/issues"
   },
-  "homepage": "https://github.com/nist/gentle_tdd_js#readme"
+  "homepage": "https://github.com/nist/gentle_tdd_js#readme",
+  "standard": {
+    "env": [ "mocha" ]
+  }
 }
